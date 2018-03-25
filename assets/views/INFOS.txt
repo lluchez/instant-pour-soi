@@ -1,0 +1,61 @@
+NOTES:
+	- All PHP files starting with "panel-" will be automatically included as panels.
+	- Their name should correspond to their panel ID, as well as their URL reference: http://xxxx/index.php/#/panel-{panel-id}
+
+For each panel
+- Convert to UTF8
+- Include the following script to prevent direct access:
+
+<?php
+	defined('DIR_CONFIG') OR exit('No direct script access allowed');
+?>
+
+
+
+///////////
+// TO DO //
+///////////
+
+Pages a faire:
+---------------------------
+- contact
+- toutes les pages de massage
+- bon-cadeau (texte manquant)
+- ethique (texte manquant)
+- plan-du-site (a faire en dernier?)
+
+
+Pages a finir:
+---------------------------
+- aromathérapie:
+	- ajouter une ou deux images
+- tarifs:
+	- valider certains textes
+	- dans le tableau des tarifs verifier les libelles et les harmoniser.
+	- ca serait peut-etre mieux de l'inclure dans la page massages? Sinon il faudrait la restructurer.
+- institut:
+	- ajouter dispo/caroussel en bas de page
+- massages:
+	- ajouter le massage Ayurvedique
+- news/promo:
+	- nouvelle image promotions
+	- texte en bas de page pour comment en beneficier
+- home page:
+	- mini-textes sous les differentes sections/images
+
+
+Pages finies:
+---------------------------
+- votre practicien
+
+
+Autres choses a faire:
+---------------------------
+- Ajouter les liens
+	- Facebook
+	- Twitter
+- Newletters
+
+
+Pages a verifier:
+---------------------------
